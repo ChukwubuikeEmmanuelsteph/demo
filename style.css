@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 20%;
+    height: 30rem;
+    border: 3px solid #000;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(48, 49, 54);
+}
+#screen {
+    width: 95%;
+    height: 10rem;
+    /* border: 2px solid blue; */
+    margin: 1rem auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn-container {
+  padding: 20px;
+}
+button {
+    width: 4.5rem;
+    height: 2rem;
+    background-color: rgb(97,  97, 97);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(41, 168, 225);
+    font-size: 20px;
+    font-weight: 700;
+
+}
